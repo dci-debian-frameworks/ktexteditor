@@ -1,0 +1,16 @@
+#!/usr/bin/make -f
+# -*- makefile -*-
+
+include /usr/share/pkg-kde-tools/qt-kde-team/2/debian-qt-kde.mk
+
+override_dh_strip:
+	$(overridden_command) --dbg-package=libkf5texteditor5-dbg
+
+override_dh_auto_test:
+	dh_installwm openbox\
+	xvfb-run -a dh_auto_test
+
+override_dh_install:
+	$(overridden_command)
+	rm -f debian/ktexteditor-data/usr/share/katepart/script/libraries/underscore.js
+	ln -s /usr/share/javascript/underscore/underscore.js debian/ktexteditor-data/usr/share/katepart/script/libraries/underscore.js

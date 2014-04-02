@@ -1,0 +1,98 @@
+Source: ktexteditor
+Section: libs
+Priority: optional
+Maintainer: Kubuntu Developers <kubuntu-devel@lists.ubuntu.com>
+XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
+Build-Depends: debhelper (>= 9.0.0), cmake, pkg-kde-tools,
+ extra-cmake-modules (>= 0.0.11), qtbase5-dev, qtscript5-dev,
+ libkf5config-dev (>= 4.98.0),
+ libkf5guiaddons-dev (>= 4.98.0), libkf5i18n-dev (>= 4.98.0),
+ libkf5sonnet-dev (>= 4.98.0), libkf5parts-dev (>= 4.98.0),
+ kf5-kio-dev (>= 4.98.0), libkf5archive-dev (>= 4.98.0),
+ libkf5coreaddons-dev (>= 4.98.0), libkf5auth-dev (>= 4.98.0),
+ libkf5codecs-dev (>= 4.98.0), libkf5widgetsaddons-dev (>= 4.98.0),
+ libkf5configwidgets-dev (>= 4.98.0), libkf5itemviews-dev (>= 4.98.0),
+ libkf5iconthemes-dev (>= 4.98.0), libkf5globalaccel-dev (>= 4.98.0),
+ libkf5completion-dev (>= 4.98.0), libkf5dbusaddons-dev (>= 4.98.0),
+ libkf5service-dev (>= 4.98.0), libkf5windowsystem-dev (>= 4.98.0),
+ libkf5textwidgets-dev (>= 4.98.0), libkf5attica-dev (>= 4.98.0),
+ libkf5xmlgui-dev (>= 4.98.0), libkf5bookmarks-dev (>= 4.98.0),
+ libkf5jobwidgets-dev (>= 4.98.0), libkf5solid-dev (>= 4.98.0),
+ libkf5notifications-dev (>= 4.98.0), xauth, xvfb, openbox, libjs-underscore
+Standards-Version: 3.9.5
+Homepage: https://projects.kde.org/projects/frameworks/ktexteditor
+
+Package: libkf5texteditor-dev
+Section: libdevel
+Architecture: any
+Depends: libkf5texteditor5 (= ${binary:Version}), ${shlibs:Depends}, ${misc:Depends}
+Description: provide advanced plain text editing services
+ The KTextEditor interfaces - also called KTE interfaces - are a set
+ of well-defined interfaces which an application or library can
+ implement to provide advanced plain text editing
+ services. Applications which utilise this interface can thus allow
+ the user to choose which implementation of the editor component to
+ use. The only implementation right now is the Kate Editor Component
+ (Kate Part).
+ .
+ Contains development files for ktexteditor.
+ 
+Package: libkf5texteditor5
+Architecture: any
+Multi-Arch: allowed
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}, ktexteditor-data (= ${binary:Version})
+Recommend: ktexteditor-katepart (= ${binary:Version})
+Description: provide advanced plain text editing services
+ The KTextEditor interfaces - also called KTE interfaces - are a set
+ of well-defined interfaces which an application or library can
+ implement to provide advanced plain text editing
+ services. Applications which utilise this interface can thus allow
+ the user to choose which implementation of the editor component to
+ use. The only implementation right now is the Kate Editor Component
+ (Kate Part).
+
+Package: ktexteditor-data
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: provide advanced plain text editing services
+ The KTextEditor interfaces - also called KTE interfaces - are a set
+ of well-defined interfaces which an application or library can
+ implement to provide advanced plain text editing
+ services. Applications which utilise this interface can thus allow
+ the user to choose which implementation of the editor component to
+ use. The only implementation right now is the Kate Editor Component
+ (Kate Part).
+
+Package: ktexteditor-katepart
+Architecture: any
+Pre-Depends: ${misc:Pre-Depends}
+Depends: ${shlibs:Depends}, ${misc:Depends}
+Description: provide advanced plain text editing services
+ The KTextEditor interfaces - also called KTE interfaces - are a set
+ of well-defined interfaces which an application or library can
+ implement to provide advanced plain text editing
+ services. Applications which utilise this interface can thus allow
+ the user to choose which implementation of the editor component to
+ use. The only implementation right now is the Kate Editor Component
+ (Kate Part).
+ .
+ This contains the Kate Part plugin.
+
+Package: libkf5texteditor5-dbg
+Priority: extra
+Section: debug
+Architecture: any
+Multi-Arch: allowed
+Depends: libkf5texteditor5 (= ${binary:Version}), ${misc:Depends}
+Description: provide advanced plain text editing services
+ The KTextEditor interfaces - also called KTE interfaces - are a set
+ of well-defined interfaces which an application or library can
+ implement to provide advanced plain text editing
+ services. Applications which utilise this interface can thus allow
+ the user to choose which implementation of the editor component to
+ use. The only implementation right now is the Kate Editor Component
+ (Kate Part).
+ .
+ Contains debug symbols for texteditor.
