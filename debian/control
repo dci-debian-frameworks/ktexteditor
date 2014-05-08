@@ -42,7 +42,7 @@ Architecture: any
 Multi-Arch: allowed
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${shlibs:Depends}, ${misc:Depends}, ktexteditor-data (= ${binary:Version})
-Recommend: ktexteditor-katepart (= ${binary:Version})
+Recommends: ktexteditor-katepart (= ${binary:Version})
 Description: provide advanced plain text editing services
  The KTextEditor interfaces - also called KTE interfaces - are a set
  of well-defined interfaces which an application or library can
