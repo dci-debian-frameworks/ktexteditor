@@ -45,7 +45,7 @@ Homepage: https://projects.kde.org/projects/frameworks/ktexteditor
 Package: libkf5texteditor5
 Section: libdevel
 Architecture: any
-Depends: ktexteditor-data (= ${binary:Version}),
+Depends: ktexteditor-data (= ${source:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: provide advanced plain text editing services
@@ -56,14 +56,15 @@ Description: provide advanced plain text editing services
  the user to choose which implementation of the editor component to
  use. The only implementation right now is the Kate Editor Component
  (Kate Part).
-Multi-Arch: allowed
+Multi-Arch: same
 Pre-Depends: ${misc:Pre-Depends}
 Recommends: ktexteditor-katepart (= ${binary:Version})
 
 Package: ktexteditor-data
-Architecture: any
+Architecture: all
 Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
+Multi-Arch: foreign
 Description: provide advanced plain text editing services
  The KTextEditor interfaces - also called KTE interfaces - are a set
  of well-defined interfaces which an application or library can
@@ -92,7 +93,6 @@ Package: libkf5texteditor5-dbg
 Priority: extra
 Section: debug
 Architecture: any
-Multi-Arch: allowed
 Depends: libkf5texteditor5 (= ${binary:Version}), ${misc:Depends}
 Description: provide advanced plain text editing services
  The KTextEditor interfaces - also called KTE interfaces - are a set
