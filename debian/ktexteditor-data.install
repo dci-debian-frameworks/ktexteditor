@@ -1,7 +1,7 @@
-usr/share/katepart5
-usr/share/kservices5
-usr/share/kservicetypes5
 etc/xdg/katemoderc
 etc/xdg/kateschemarc
 etc/xdg/katesyntaxhighlightingrc
 usr/share/katepart/katepart5ui.rc
+usr/share/katepart5
+usr/share/kservices5
+usr/share/kservicetypes5
