@@ -10,7 +10,7 @@ override_dh_auto_test:
 	dh_installwm openbox\
 	xvfb-run -a dh_auto_test
 
-override_dh_install:
+override_dh_install-indep:
 	$(overridden_command)
 	rm -f debian/ktexteditor-data/usr/share/katepart5/script/libraries/underscore.js
 	ln -s /usr/share/kde4/apps/katepart/script/libraries/underscore.js debian/ktexteditor-data/usr/share/katepart5/script/libraries/underscore.js
