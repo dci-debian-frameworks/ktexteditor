@@ -1,11 +1,18 @@
 ktexteditor (4.99.0-0ubuntu1) trusty; urgency=medium
 
+  [ José Manuel Santamaría Lema ]
+  * Use override_dh_install-indep instead of override_dh_install to execute a
+    couple of commands which would work only when arch:all packages are being
+    built.
+  * Re-add missing -dev package after a faulty wrap-and-sort.
+  * Install *.pri files in arch dependent path.
+
   [ Jonathan Riddell ]
   * New upstream beta release
 
   [ Scarlett Clark ]
   * Fix install paths
-  * Fix javascript link path in rules. 
+  * Fix javascript link path in rules.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:56 +0100
 
