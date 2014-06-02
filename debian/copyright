@@ -2,7 +2,7 @@ Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ktexteditor
 Source: https://projects.kde.org/projects/frameworks/ktexteditor
 
-Files: *       
+Files: *
 Copyright: © 2001-2014 Christoph Cullmann <cullmann@kde.org>
            © 2005-2014 Dominik Haumann <dhaumann@kde.org> <dhdev@gmx.de>
            © 2002-2007 Hamish Rodda <rodda@kde.org>
@@ -85,7 +85,7 @@ License: LGPL-2+
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
- 
+
 Files: src/dialogs/katedialogs.cpp
        src/document/katedocument.cpp
        src/document/katedocument.h
@@ -145,9 +145,9 @@ License: LGPL-2
  Boston, MA 02110-1301, USA.
 
 Files: src/spellcheck/spellcheckbar.cpp
-       src/spellcheck/spellcheckbar.h      
+       src/spellcheck/spellcheckbar.h
 Copyright: 2003  Zack Rusin <zack@kde.org>
-           2009-2010  Michel Ludwig <michel.ludwig@kdemail.net>  
+           2009-2010  Michel Ludwig <michel.ludwig@kdemail.net>
 License: LGPL-2.1+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Lesser General Public
@@ -163,7 +163,7 @@ License: LGPL-2.1+
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
 
 Files: debian/*
-Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com> 
+Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: GPL-2+
  This package is free software; you can redistribute it and/or modify
  it under the terms of the GNU General Public License as published by
@@ -180,4 +180,3 @@ License: GPL-2+
  .
  On Debian systems, the complete text of the GNU General
  Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
- 
