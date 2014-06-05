@@ -74,12 +74,10 @@ Description: provide advanced plain text editing services
  use. The only implementation right now is the Kate Editor Component
  (Kate Part).
 Multi-Arch: same
-Pre-Depends: ${misc:Pre-Depends}
 Recommends: ktexteditor-katepart (= ${binary:Version})
 
 Package: ktexteditor-data
 Architecture: all
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Multi-Arch: foreign
 Description: provide advanced plain text editing services
@@ -93,7 +91,6 @@ Description: provide advanced plain text editing services
 
 Package: ktexteditor-katepart
 Architecture: any
-Pre-Depends: ${misc:Pre-Depends}
 Depends: ${misc:Depends}, ${shlibs:Depends}
 Description: provide advanced plain text editing services
  The KTextEditor interfaces - also called KTE interfaces - are a set
