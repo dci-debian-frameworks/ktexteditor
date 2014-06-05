@@ -60,7 +60,6 @@ Description: provide advanced plain text editing services
  Contains development files for ktexteditor.
 
 Package: libkf5texteditor5
-Section: libdevel
 Architecture: any
 Depends: ktexteditor-data (= ${source:Version}),
          ${misc:Depends},
