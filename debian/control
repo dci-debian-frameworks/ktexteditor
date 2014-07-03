@@ -6,8 +6,7 @@ XSBC-Original-Maintainer: Scarlett Clark <scarlett@scarlettgatelyclark.com>
 Build-Depends: cmake,
                debhelper (>= 9.0.0),
                extra-cmake-modules (>= 1.0.0),
-               kio-dev (>= 5.0.0),
-               libjs-underscore,
+               kio-dev (>= 5.0.0),              
                libkf5archive-dev (>= 5.0.0),
                libkf5attica-dev (>= 5.0.0),
                libkf5auth-dev (>= 5.0.0),
@@ -62,6 +61,7 @@ Description: provide advanced plain text editing services
 Package: libkf5texteditor5
 Architecture: any
 Depends: ktexteditor-data (= ${source:Version}),
+         libjs-underscore,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: provide advanced plain text editing services
