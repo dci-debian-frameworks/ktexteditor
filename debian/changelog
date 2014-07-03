@@ -5,6 +5,7 @@ ktexteditor (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
   [ Scarlett Clark ]
   * Fix install file 
+  * Add links file to sym link embedded js file 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:41:46 +0200
 
