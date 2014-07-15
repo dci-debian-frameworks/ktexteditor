@@ -1,6 +1,5 @@
-ktexteditor (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
+ktexteditor (5.0.0-0ubuntu1) utopic; urgency=medium
 
   * Initial stable upstream release
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 02 Apr 2014 05:51:48 -0700
-
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 15 Jul 2014 18:25:09 +0200
