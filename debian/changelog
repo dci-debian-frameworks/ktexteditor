@@ -1,57 +1,6 @@
 ktexteditor (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
-  [ Jonathan Riddell ]
   * Initial stable upstream release
-
-  [ Scarlett Clark ]
-  * Fix install file
-  * Add links file to sym link embedded js file
-  * Move underscore.js to runtime dependency
-  * Update watch file to stable
-  * Add Vcs
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 02 Jul 2014 00:41:46 +0200
-
-ktexteditor (4.100.0-0ubuntu1) utopic; urgency=medium
-
-  [ Jonathan Riddell ]
-  * New upstream beta release
-
-  [ Scarlett Clark ]
-  * Bump depends versions
-
-  [ Harald Sitter ]
-  * Update ktexteditor-data.install to contain localization
-  * Remove useless Pre-Depends fields used for multiarch compat in
-    releases older than trusty
-  * Remove incorrect Section fields
-
-  [ José Manuel Santamaría Lema ]
-  * Build depend on kio-dev instead of kf5-kio-dev.
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 02 Jun 2014 13:44:04 +0100
-
-ktexteditor (4.99.0-0ubuntu1) trusty; urgency=medium
-
-  [ José Manuel Santamaría Lema ]
-  * Use override_dh_install-indep instead of override_dh_install to execute a
-    couple of commands which would work only when arch:all packages are being
-    built.
-  * Re-add missing -dev package after a faulty wrap-and-sort.
-  * Install *.pri files in arch dependent path.
-
-  [ Jonathan Riddell ]
-  * New upstream beta release
-
-  [ Scarlett Clark ]
-  * Fix install paths
-  * Fix javascript link path in rules.
-
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 May 2014 15:39:56 +0100
-
-ktexteditor (4.98.0-0ubuntu1) trusty; urgency=medium
-
-  * Initial Release
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Wed, 02 Apr 2014 05:51:48 -0700
 
