@@ -3,6 +3,7 @@ Upstream-Name: ktexteditor
 Source: https://projects.kde.org/projects/frameworks/ktexteditor
 
 Files: *
+       debian/*
 Copyright: © 2001-2014 Christoph Cullmann <cullmann@kde.org>
            © 2005-2014 Dominik Haumann <dhaumann@kde.org> <dhdev@gmx.de>
            © 2002-2007 Hamish Rodda <rodda@kde.org>
@@ -70,6 +71,7 @@ Copyright: © 2001-2014 Christoph Cullmann <cullmann@kde.org>
            ©  Jonathan Schmidt-Dominé <devel@the-user.org>
            © 2005 Research Centre)
            © 2012 Frederik Gladhorn <gladhorn@kde.org>
+             2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
 License: LGPL-2+
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
@@ -92,20 +94,16 @@ Files: src/dialogs/katedialogs.cpp
        src/render/katerenderer.cpp
        src/render/katerenderer.h
        src/script/* excluding:
-        -+ src/script/katecommandlinescript.cpp
-        -+ src/script/katecommandlinescript.h
-        -+ src/script/katescriptaction.cpp
-        -+ src/script/katescriptaction.h
-        -+ src/script/katescripthelpers.cpp
-        -+ src/script/katescripthelpers.h
-        -+ src/script/katetemplatescript.cpp
-        -+ src/script/katetemplatescript.h
-       src/script/data/indentation/* excluding:
-        -? src/script/data/indentation/haskell.js
-        -? src/script/data/indentation/latex.js
-        -+ src/script/data/indentation/lilypond.js
-        -? src/script/data/indentation/lisp.js
-        -? src/script/data/indentation/python.js
+        -src/script/katecommandlinescript.cpp
+        -src/script/katecommandlinescript.h
+        -src/script/katescriptaction.cpp
+        -src/script/katescriptaction.h
+        -src/script/katescripthelpers.cpp
+        -src/script/katescripthelpers.h
+        -src/script/katetemplatescript.cpp
+        -src/script/katetemplatescript.h
+       src/script/data/indentation/* excluding:        
+        -src/script/data/indentation/latex.js       
        src/script/data/libraries/string.js
        src/script/data/libraries/utils.js
        src/search/katesearchbar.cpp
@@ -127,6 +125,10 @@ Copyright: 2002, 2003 Anders Lund <anders.lund@lund.tdcadsl.dk>
            2007 Mirko Stocker <me@misto.ch>
            2009 Michel Ludwig <michel.ludwig@kdemail.net>
            2009 Erlend Hamberg <ehamberg@gmail.com>
+           Wilbert Berendsen <info@wilbertberendsen.nl>
+           Matteo Sasso <matteo.sasso@gmail.com>
+           Paul Giannaros <paul@giannaros.org>
+           Gerald Senarclens de Grancy <oss@senarclens.eu>
            Based on work of:
            1999 Jochen Wilhelmy <digisnap@cs.tu-berlin.de>
 License: LGPL-2
@@ -161,22 +163,3 @@ License: LGPL-2.1+
  .
  You should have received a copy of the GNU Lesser General Public
  License along with this library.  If not, see <http://www.gnu.org/licenses/>.
-
-Files: debian/*
-Copyright: 2014 Scarlett Clark <scarlett@scarlettgatelyclark.com>
-License: GPL-2+
- This package is free software; you can redistribute it and/or modify
- it under the terms of the GNU General Public License as published by
- the Free Software Foundation; either version 2 of the License, or
- (at your option) any later version.
- .
- This package is distributed in the hope that it will be useful,
- but WITHOUT ANY WARRANTY; without even the implied warranty of
- MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
- GNU General Public License for more details.
- .
- You should have received a copy of the GNU General Public License
- along with this program. If not, see <http://www.gnu.org/licenses/>
- .
- On Debian systems, the complete text of the GNU General
- Public License version 2 can be found in "/usr/share/common-licenses/GPL-2".
