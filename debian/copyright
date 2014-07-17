@@ -88,6 +88,36 @@ License: LGPL-2+
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
 
+Files: src/completion/katekeywordcompletion.h
+ src/completion/katekeywordcompletion.cpp
+ src/script/katescriptdocument.cpp
+ src/script/kateindentscript.h
+ src/script/katescript.h
+ src/script/katescriptdocument.h
+ src/script/katescriptview.cpp
+ src/script/kateindentscript.cpp
+ src/script/katescript.cpp
+ src/script/katescriptview.h
+ src/script/katescriptmanager.h
+Copyright: 2008 Paul Giannaros <paul@giannaros.org>
+ 2009 Dominik Haumann <dhaumann kde org>
+ 2010 Joseph Wenninger <jowenn@kde.org>
+License: LGPL-2 or later as approved by KDE e.V.
+ This library is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Library General Public
+ License as published by the Free Software Foundation; either
+ version 2 of the License, or (at your option) version 3.
+ .
+ This library is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the GNU
+ Library General Public License for more details.
+ .
+ You should have received a copy of the GNU Library General Public License
+ along with this library; see the file COPYING.LIB.  If not, write to
+ the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
+ Boston, MA 02110-1301, USA.
+
 Files: src/dialogs/katedialogs.cpp
        src/document/katedocument.cpp
        src/document/katedocument.h
