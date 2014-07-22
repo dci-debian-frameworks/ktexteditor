@@ -1,11 +1,4 @@
-ktexteditor (5.0.0-0ubuntu2) UNRELEASED; urgency=medium
-
-  * Update libraries *.install paths so a soname bump doesn't go
-    unnoticed.
-
- -- José Manuel Santamaría Lema <panfaust@gmail.com>  Sun, 20 Jul 2014 23:52:18 +0200
-
-ktexteditor (5.0.0-0ubuntu1) utopic; urgency=medium
+ktexteditor (5.0.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * Initial stable upstream release
 
