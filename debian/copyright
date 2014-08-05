@@ -87,6 +87,9 @@ License: LGPL-2+
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public License
+ can be found in /usr/share/common-licenses/LGPL-2 file.
 
 Files: src/completion/katekeywordcompletion.h
  src/completion/katekeywordcompletion.cpp
@@ -117,6 +120,9 @@ License: LGPL-2 or later as approved by KDE e.V.
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public License
+ can be found in /usr/share/common-licenses/LGPL-2 file.
 
 Files: src/dialogs/katedialogs.cpp
        src/document/katedocument.cpp
@@ -175,6 +181,9 @@ License: LGPL-2
  along with this library; see the file COPYING.LIB.  If not, write to
  the Free Software Foundation, Inc., 51 Franklin Street, Fifth Floor,
  Boston, MA 02110-1301, USA.
+ .
+ On Debian systems, the complete text of the GNU Library General Public License
+ can be found in /usr/share/common-licenses/LGPL-2 file.
 
 Files: src/spellcheck/spellcheckbar.cpp
        src/spellcheck/spellcheckbar.h
