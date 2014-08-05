@@ -1,9 +1,9 @@
-ktexteditor (5.1.0-0ubuntu1) UNRELEASED; urgency=medium
+ktexteditor (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
   * Fix copyright file lintain errors. 
 
- -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Sun, 03 Aug 2014 19:01:20 -0700
+ -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:09:22 +0200
 
 ktexteditor (5.0.0-0ubuntu1) utopic; urgency=medium
 
