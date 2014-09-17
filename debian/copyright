@@ -105,7 +105,7 @@ Files: src/completion/katekeywordcompletion.h
 Copyright: 2008 Paul Giannaros <paul@giannaros.org>
  2009 Dominik Haumann <dhaumann kde org>
  2010 Joseph Wenninger <jowenn@kde.org>
-License: LGPL-2 or later as approved by KDE e.V.
+License: LGPL-2 or LGPL-3
  This library is free software; you can redistribute it and/or
  modify it under the terms of the GNU Library General Public
  License as published by the Free Software Foundation; either
@@ -138,8 +138,8 @@ Files: src/dialogs/katedialogs.cpp
         -src/script/katescripthelpers.h
         -src/script/katetemplatescript.cpp
         -src/script/katetemplatescript.h
-       src/script/data/indentation/* excluding:        
-        -src/script/data/indentation/latex.js       
+       src/script/data/indentation/* excluding:
+        -src/script/data/indentation/latex.js
        src/script/data/libraries/string.js
        src/script/data/libraries/utils.js
        src/search/katesearchbar.cpp
