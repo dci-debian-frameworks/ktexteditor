@@ -39,8 +39,8 @@ Build-Depends: cmake,
 Standards-Version: 3.9.5
 Homepage: https://projects.kde.org/projects/frameworks/ktexteditor
 XS-Testsuite: autopkgtest
-Vcs-Browser: http://bazaar.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/ktexteditor
-Vcs-Bzr: https://code.launchpad.net/~kubuntu-packagers/kubuntu-packaging-next/ktexteditor
+Vcs-Browser: http://anonscm.debian.org/gitweb/?p=pkg-kde/frameworks/ktexteditor.git
+Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/ktexteditor.git
 
 Package: libkf5texteditor-dev
 Section: libdevel
