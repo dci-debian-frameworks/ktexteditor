@@ -1,6 +1,10 @@
 ktexteditor (5.3.0-0ubuntu1) UNRELEASED; urgency=medium
 
+  [ Jonathan Riddell ]
   * New upstream release
+
+  [ Scarlett Clark ]
+  * Add missing depends pkgconfig and libgit2. 
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 06 Oct 2014 11:37:17 +0100
 
