@@ -1,8 +1,8 @@
-ktexteditor (5.5.0-0ubuntu1) UNRELEASED; urgency=medium
+ktexteditor (5.5.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Scarlett Clark <sgclark@kubuntu.org>  Thu, 11 Dec 2014 14:13:22 -0800
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 15 Dec 2014 11:18:08 +0100
 
 ktexteditor (5.4.0-0ubuntu1) vivid; urgency=medium
 
