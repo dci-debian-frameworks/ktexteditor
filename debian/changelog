@@ -1,8 +1,8 @@
-ktexteditor (5.6.0-0ubuntu1) UNRELEASED; urgency=medium
+ktexteditor (5.6.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 05 Jan 2015 14:09:13 +0100
+ -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 06 Jan 2015 20:17:44 +0100
 
 ktexteditor (5.5.0-0ubuntu1) vivid; urgency=medium
 
