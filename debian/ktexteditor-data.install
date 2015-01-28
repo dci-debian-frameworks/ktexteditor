@@ -1,2 +1,9 @@
-etc/
-usr/share/
+etc/xdg/katemoderc
+etc/xdg/kateschemarc
+etc/xdg/katesyntaxhighlightingrc
+usr/share/katepart5/
+usr/share/kservices5/katepart.desktop
+usr/share/kservicetypes5/ktexteditor.desktop
+usr/share/kservicetypes5/ktexteditorplugin.desktop
+usr/share/kxmlgui5/katepart/
+usr/share/locale/*/*/ktexteditor5.mo
