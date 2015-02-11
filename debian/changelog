@@ -1,8 +1,8 @@
-ktexteditor (5.7.0-0ubuntu1) UNRELEASED; urgency=medium
+ktexteditor (5.7.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
- -- Harald Sitter <sitter@kde.org>  Mon, 09 Feb 2015 10:03:24 +0100
+ -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 17:00:21 +0100
 
 ktexteditor (5.6.0-0ubuntu1) vivid; urgency=medium
 
