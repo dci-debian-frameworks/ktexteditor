@@ -47,7 +47,8 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/ktexteditor.git
 Package: libkf5texteditor-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5texteditor5 (= ${binary:Version}),
+Depends: libkf5parts-dev,
+         libkf5texteditor5 (= ${binary:Version}),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: provide advanced plain text editing services
