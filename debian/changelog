@@ -1,6 +1,7 @@
 ktexteditor (5.8.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.8.0).
+  * New patch: katesyntaxtest_check_basename
 
  -- Maximiliano Curia <maxy@debian.org>  Sat, 14 Mar 2015 10:26:07 +0100
 
