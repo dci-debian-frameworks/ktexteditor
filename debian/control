@@ -15,12 +15,12 @@ Build-Depends: cmake (>= 2.8.12),
                libkf5iconthemes-dev (>= 5.10.0~),
                libkf5parts-dev (>= 5.10.0~),
                libkf5sonnet-dev (>= 5.10.0~),
-               libqt5xmlpatterns5-dev (>= 5.2.0~),
+               libqt5xmlpatterns5-dev (>= 5.4),
                perl,
                pkg-config,
                pkg-kde-tools (>= 0.15.15ubuntu1~),
-               qtbase5-dev (>= 5.2.0),
-               qtscript5-dev (>= 5.2.0~)
+               qtbase5-dev (>= 5.4),
+               qtscript5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/ktexteditor
 XS-Testsuite: autopkgtest
@@ -32,7 +32,7 @@ Section: libdevel
 Architecture: any
 Depends: libkf5parts-dev (>= 5.10.0~),
          libkf5texteditor5 (= ${binary:Version}),
-         qtbase5-dev (>= 5.2.0),
+         qtbase5-dev (>= 5.4),
          ${misc:Depends},
          ${shlibs:Depends}
 Description: provide advanced plain text editing services
