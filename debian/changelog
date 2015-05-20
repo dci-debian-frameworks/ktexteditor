@@ -1,8 +1,27 @@
+ktexteditor (5.10.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.10.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 11 May 2015 13:05:09 +0200
+
+ktexteditor (5.9.0-1) experimental; urgency=medium
+
+  * New upstream release (5.9.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 23 Apr 2015 08:26:21 +0200
+
 ktexteditor (5.9.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 13 Apr 2015 23:18:59 +0200
+
+ktexteditor (5.8.0-1) experimental; urgency=medium
+
+  * New upstream release (5.8.0).
+  * New patch: katesyntaxtest_check_basename
+
+ -- Maximiliano Curia <maxy@debian.org>  Sun, 22 Mar 2015 11:38:48 +0100
 
 ktexteditor (5.8.0-0ubuntu1) vivid; urgency=medium
 
@@ -10,11 +29,31 @@ ktexteditor (5.8.0-0ubuntu1) vivid; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 17 Mar 2015 15:45:26 +0100
 
+ktexteditor (5.7.0-1) experimental; urgency=medium
+
+  * New upstream release (5.7.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 06 Mar 2015 22:57:45 +0100
+
 ktexteditor (5.7.0-0ubuntu1) vivid; urgency=medium
 
   * New upstream release
 
  -- Harald Sitter <sitter@kde.org>  Tue, 10 Feb 2015 17:00:21 +0100
+
+ktexteditor (5.6.0-1) experimental; urgency=medium
+
+  * Prepare initial Debian release.
+  * Add acc autopkgtests.
+  * Update build dependencies to build against experimental and to
+    follow cmake.
+  * Bump Standards-Version to 3.9.6, no changes needed.
+  * Update copyright information.
+  * Update watch file.
+  * Update install files.
+  * Add missing dev dependency (thanks to acc headers check)
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 03 Feb 2015 20:32:35 +0100
 
 ktexteditor (5.6.0-0ubuntu1) vivid; urgency=medium
 
@@ -40,7 +79,7 @@ ktexteditor (5.3.0-0ubuntu1) utopic; urgency=medium
   * New upstream release
 
   [ Scarlett Clark ]
-  * Add missing depends pkgconfig and libgit2. 
+  * Add missing depends pkgconfig and libgit2.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Tue, 07 Oct 2014 11:27:26 +0100
 
@@ -53,14 +92,14 @@ ktexteditor (5.2.0-0ubuntu1) utopic; urgency=medium
   [ Scarlett Clark ]
   * Add missing dependency libqt5xmlpatterns5-dev.
   * Cleanup copyright + move copyright extra details to comment to silence
-    space-in-std-shortname-in-dep5-copyright lintian error.  
+    space-in-std-shortname-in-dep5-copyright lintian error.
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 22 Sep 2014 19:37:47 +0200
 
 ktexteditor (5.1.0-0ubuntu1) utopic; urgency=medium
 
   * New upstream release
-  * Fix copyright file lintain errors. 
+  * Fix copyright file lintain errors.
 
  -- Scarlett Clark <scarlett@scarlettgatelyclark.com>  Tue, 05 Aug 2014 17:09:22 +0200
 
