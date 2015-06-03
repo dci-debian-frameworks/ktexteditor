@@ -384,19 +384,30 @@ License: Expat
 
 Files: src/syntax/data/kdesrc-buildrc.xml
        src/syntax/data/lsl.xml
+Copyright: Michael Pyne
 License: LGPL-3
- license = "LGPLv3"
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU Lesser General Public License as
+ published by the Free Software Foundation; either version 3 of
+ the License, or (at your option) any later version.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU Lesser General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  .
  On Debian systems, the complete text of the GNU Lesser Public License version
  3 can be  found in `/usr/share/common-licenses/LGPL-3'.
 
 Files: src/syntax/data/varnish.xml
        src/syntax/data/varnishtest.xml
+Copyright: Xavier Guerrin <xavier@tuxfamily.org>
 License: WTFPL
- license="WTFPL"
- .
-         DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-                    Version 2, December 2004
+ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+ Version 2, December 2004
  .
  Copyright (C) 2004 Sam Hocevar <sam@hocevar.net>
  .
@@ -404,34 +415,21 @@ License: WTFPL
  copies of this license document, and changing it is allowed as long
  as the name is changed.
  .
-            DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
-   TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+ DO WHAT THE FUCK YOU WANT TO PUBLIC LICENSE
+ TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
  .
-  0. You just DO WHAT THE FUCK YOU WANT TO.
+ 0. You just DO WHAT THE FUCK YOU WANT TO.
 
 Files: src/syntax/data/systemverilog.xml
        src/syntax/data/vera.xml
+Copyright: Sean O'Boyle <seanoboyle@intelligentdv.com>
 License: GPL-3+
 
 Files: src/script/data/commands/utils.js
 Copyright: 2000, Martin Pool <mbp@humbug.org.au>
            2003, Pierre-Luc Paour <natorder@paour.com>
            2005, SCK-CEN (Belgian Nucleair Research Centre)
-License: LGPL or Zlib
- "license": "LGPL",
- .
- and later:
- .
- natcompare.js -- Perform 'natural order' comparisons of strings in JavaScript.
- Copyright (C) 2005 by SCK-CEN (Belgian Nucleair Research Centre)
- Written by Kristof Coomans <kristof[dot]coomans[at]sckcen[dot]be>
- .
- Based on the Java version by Pierre-Luc Paour, of which this is more or less a straight conversion.
- Copyright (C) 2003 by Pierre-Luc Paour <natorder@paour.com>
- .
- The Java version was based on the C version by Martin Pool.
- Copyright (C) 2000 by Martin Pool <mbp@humbug.org.au>
- .
+License: Zlib
  This software is provided 'as-is', without any express or implied
  warranty.  In no event will the authors be held liable for any damages
  arising from the use of this software.
@@ -447,16 +445,10 @@ License: LGPL or Zlib
  2. Altered source versions must be plainly marked as such, and must not be
  misrepresented as being the original software.
  3. This notice may not be removed or altered from any source distribution.
- .
- On Debian systems, the complete text of the GNU Lesser Public License can be
- found in `/usr/share/common-licenses/LGPL'.
 
 Files: src/syntax/data/m4.xml
 Copyright: 2011, Cybernetica AS ( http://www.cyber.ee/ )
 License: BSD-3-clause
- Copyright (c) 2011, Cybernetica AS ( http://www.cyber.ee/ )
- All rights reserved.
- .
  Redistribution and use in source and binary forms, with or without
  modification, are permitted provided that the following conditions are met:
      * Redistributions of source code must retain the above copyright
@@ -480,8 +472,20 @@ License: BSD-3-clause
  SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 Files: src/syntax/data/kconfig.xml
+Copyright: Martin Walch <walch.martin@web.de>
 License: GPL-3
- license="GPLv3"
+ This program is free software; you can redistribute it and/or
+ modify it under the terms of the GNU General Public License as
+ published by the Free Software Foundation; either version 3 of
+ the License.
+ .
+ This program is distributed in the hope that it will be useful,
+ but WITHOUT ANY WARRANTY; without even the implied warranty of
+ MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+ GNU General Public License for more details.
+ .
+ You should have received a copy of the GNU General Public License
+ along with this program.  If not, see <http://www.gnu.org/licenses/>.
  .
  On Debian systems, the complete text of the GNU General Public License
  version 3 can be found in `/usr/share/common-licenses/GPL-3'.
@@ -531,8 +535,6 @@ License: GPL-2
  version 2 can be found in "/usr/share/common-licenses/GPL-2".
 
 License: GPL-2+
-   GNU GENERAL PUBLIC LICENCE
- .
  This program, including associated files, is free software.  You may
  distribute it and/or modify it under the terms of the GNU General Public
  License as published by the Free Software Foundation; either Version 2 of
