@@ -1,6 +1,8 @@
 ktexteditor (5.10.0-0ubuntu2) UNRELEASED; urgency=medium
 
   * Add kubuntu_workaround-katehighlightingindexer-arm.diff
+  * Add libkf5texteditor5-libjs-underscore bridge package to allow
+    installing as multi-arch
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Fri, 12 Jun 2015 08:07:46 +0200
 
