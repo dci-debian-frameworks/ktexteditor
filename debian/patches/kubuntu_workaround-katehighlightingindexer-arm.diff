@@ -1,0 +1,31 @@
+Description: Work around breaking qt apps on armhf qemu
+ build fails on launchpad because armhf qemu breaks with threads and qt uses thread
+Author: Jonathan and Harald
+Origin: me
+Last-Update: 2015-06-11
+---
+This patch header follows DEP-3: http://dep.debian.net/deps/dep3/
+Index: ktexteditor-5.10.0+git20150604.2354+15.04/src/syntax/data/CMakeLists.txt
+===================================================================
+--- ktexteditor-5.10.0+git20150604.2354+15.04.orig/src/syntax/data/CMakeLists.txt
++++ ktexteditor-5.10.0+git20150604.2354+15.04/src/syntax/data/CMakeLists.txt
+@@ -45,11 +45,14 @@ endforeach()
+ add_executable(katehighlightingindexer katehighlightingindexer.cpp)
+ target_link_libraries(katehighlightingindexer Qt5::XmlPatterns
+ )
+-add_custom_command(OUTPUT ${INDEXFILE_OUT}
+-  COMMAND katehighlightingindexer ${INDEXFILE_OUT} ${LANGUAGE_XSD} ${INDEXFILE_IN}
+-  DEPENDS katehighlightingindexer.cpp ${LANGUAGE_XSD} ${ALL_HIGHLIGHTERS} ${INDEXFILE_IN})
+-add_custom_target(GenerateIndexFile ALL DEPENDS ${INDEXFILE_OUT})
+ 
+-install(FILES ${INDEXFILE_OUT} ${LANGUAGE_XSD} ${ALL_HIGHLIGHTERS} DESTINATION ${KDE_INSTALL_DATADIR}/katepart5/syntax)
++if(NOT "$ENV{DEB_BUILD_ARCH}" STREQUAL "armhf")
++  add_custom_command(OUTPUT ${INDEXFILE_OUT}
++    COMMAND katehighlightingindexer ${INDEXFILE_OUT} ${LANGUAGE_XSD} ${INDEXFILE_IN}
++    DEPENDS katehighlightingindexer.cpp ${LANGUAGE_XSD} ${ALL_HIGHLIGHTERS} ${INDEXFILE_IN})
++  add_custom_target(GenerateIndexFile ALL DEPENDS ${INDEXFILE_OUT})
++endif()
++
++install(FILES ${LANGUAGE_XSD} ${ALL_HIGHLIGHTERS} DESTINATION ${KDE_INSTALL_DATADIR}/katepart5/syntax)
+ 
+ endif()
