@@ -1,8 +1,8 @@
-ktexteditor (5.12.0-1~) UNRELEASED; urgency=medium
+ktexteditor (5.12.0-1) unstable; urgency=medium
 
   * New upstream release (5.12.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Tue, 07 Jul 2015 17:41:50 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:44:05 +0200
 
 ktexteditor (5.11.0-1) unstable; urgency=medium
 
