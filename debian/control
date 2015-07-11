@@ -5,16 +5,16 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.10.0),
-               kio-dev (>= 5.12.0),
+               extra-cmake-modules (>= 5.12.0~),
+               kio-dev (>= 5.12.0~),
                libgit2-dev,
-               libkf5archive-dev (>= 5.12.0),
-               libkf5config-dev (>= 5.12.0),
-               libkf5guiaddons-dev (>= 5.12.0),
-               libkf5i18n-dev (>= 5.12.0),
-               libkf5iconthemes-dev (>= 5.12.0),
-               libkf5parts-dev (>= 5.12.0),
-               libkf5sonnet-dev (>= 5.12.0),
+               libkf5archive-dev (>= 5.12.0~),
+               libkf5config-dev (>= 5.12.0~),
+               libkf5guiaddons-dev (>= 5.12.0~),
+               libkf5i18n-dev (>= 5.12.0~),
+               libkf5iconthemes-dev (>= 5.12.0~),
+               libkf5parts-dev (>= 5.12.0~),
+               libkf5sonnet-dev (>= 5.12.0~),
                libqt5xmlpatterns5-dev (>= 5.4),
                perl,
                pkg-config,
@@ -30,7 +30,7 @@ Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/ktexteditor.git
 Package: libkf5texteditor-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5parts-dev (>= 5.12.0),
+Depends: libkf5parts-dev (>= 5.12.0~),
          libkf5texteditor5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends},
@@ -49,7 +49,7 @@ Description: provide advanced plain text editing services
 Package: libkf5texteditor5
 Architecture: any
 Depends: ktexteditor-data (= ${source:Version}),
-         libjs-underscore,
+         libkf5texteditor5-libjs-underscore,
          ${misc:Depends},
          ${shlibs:Depends}
 Description: provide advanced plain text editing services
@@ -62,6 +62,14 @@ Description: provide advanced plain text editing services
  (Kate Part).
 Multi-Arch: same
 Recommends: ktexteditor-katepart (= ${binary:Version})
+
+Package: libkf5texteditor5-libjs-underscore
+Architecture: any
+Depends: libjs-underscore, ${misc:Depends}, ${shlibs:Depends}
+Description: Bridge package for libjs-underscore
+ Bridge package for libjs-underscore to allow for installation of
+ libjs-underscore in multi-arch use.
+Multi-Arch: foreign
 
 Package: ktexteditor-data
 Architecture: all
