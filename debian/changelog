@@ -1,11 +1,11 @@
-ktexteditor (5.15.0-1~) UNRELEASED; urgency=medium
+ktexteditor (5.15.0-1) unstable; urgency=medium
 
   * Add copyright information about the current license of the linkable
     code.
   * Drop libgit2-dev build dep. (Closes: #799430)
   * New upstream release (5.15.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 05 Oct 2015 15:07:30 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:48 +0200
 
 ktexteditor (5.14.0-1) unstable; urgency=medium
 
