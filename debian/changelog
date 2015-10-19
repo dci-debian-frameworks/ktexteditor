@@ -1,6 +1,12 @@
 ktexteditor (5.15.0-0ubuntu2) UNRELEASED; urgency=medium
 
+  [ Scarlett Clark ]
   * Vivid backport. 
+
+  [ Rohan Garg ]
+  * Drop kubuntu_workaround-katehighlightingindexer-arm.diff, because KCI
+    doesn't build arm packages on QEMU anymore, and Mobile KCI builds them
+    on real HW.
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 09 Oct 2015 00:15:37 -0700
 
