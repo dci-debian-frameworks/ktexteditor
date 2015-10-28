@@ -12,6 +12,7 @@ ktexteditor (5.15.0-0ubuntu2) UNRELEASED; urgency=medium
   * Remove missing file. 
   * Seems all kate*rc files are removed. 
     Removed from install files.
+  * Removed xmlgui/katepart also missing from install. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Fri, 09 Oct 2015 00:15:37 -0700
 
