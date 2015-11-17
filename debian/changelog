@@ -1,8 +1,14 @@
-ktexteditor (5.15.0-0ubuntu2) xenial; urgency=medium
+ktexteditor (5.15.0-0ubuntu3) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
 
  -- Philip Muškovac <yofel@kubuntu.org>  Tue, 03 Nov 2015 15:34:48 +0100
+
+ktexteditor (5.15.0-0ubuntu2) xenial; urgency=medium
+
+  * No-change rebuild against libgit2 0.23.1-1
+
+ -- Stefano Rivera <stefanor@ubuntu.com>  Wed, 28 Oct 2015 01:14:15 -0700
 
 ktexteditor (5.15.0-0ubuntu1) wily; urgency=medium
 
