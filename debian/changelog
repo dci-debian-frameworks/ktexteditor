@@ -2,6 +2,7 @@ ktexteditor (5.16.0-1~) UNRELEASED; urgency=medium
 
   * New upstream release (5.16.0).
   * xdg files no longer present.
+  * Update install files.
 
  -- Maximiliano Curia <maxy@debian.org>  Tue, 17 Nov 2015 11:48:48 +0100
 
