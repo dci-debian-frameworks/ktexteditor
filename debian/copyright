@@ -1,6 +1,19 @@
 Format: http://www.debian.org/doc/packaging-manuals/copyright-format/1.0/
 Upstream-Name: ktexteditor
 Source: https://projects.kde.org/projects/frameworks/ktexteditor
+Comment:
+ KDE software follows the KDE licensing policy that can be found:
+ https://techbase.kde.org/Policies/Licensing_Policy
+ Some files might refer to license names that are explained it these the
+ mentioned policy.
+ .
+ Unless otherwise noted the default license used in this framework is
+ LGPL-2.1+ for the source code. Some of the optional xml and js files used
+ at runtime are under a version of the GPL license.
+ .
+ In particular, this licensing allows this project to link against libgit2
+ (which may, in turn, link against the openssl, which has incompatibilities
+ with the GPL), as the linkable code per se is under a version of the LGPL.
 
 Files: *
 Copyright: 2009-2013, Alex Turbov <I.zaufi@gmail.com>

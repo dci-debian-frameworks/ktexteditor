@@ -1,3 +1,20 @@
+ktexteditor (5.16.0-1) unstable; urgency=medium
+
+  * New upstream release (5.16.0).
+  * xdg files no longer present.
+  * Update install files.
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 30 Nov 2015 12:12:29 +0100
+
+ktexteditor (5.15.0-1) unstable; urgency=medium
+
+  * Add copyright information about the current license of the linkable
+    code.
+  * Drop libgit2-dev build dep. (Closes: #799430)
+  * New upstream release (5.15.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 09 Oct 2015 19:16:48 +0200
+
 ktexteditor (5.15.0-0ubuntu3) xenial; urgency=medium
 
   * Fix autopackagetests by adding allow-stderr to the requirements.
@@ -36,17 +53,35 @@ ktexteditor (5.15.0-0ubuntu1) wily; urgency=medium
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Wed, 07 Oct 2015 13:56:26 +0100
 
+ktexteditor (5.14.0-1) unstable; urgency=medium
+
+  * New upstream release (5.14.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 15 Sep 2015 13:49:55 +0200
+
 ktexteditor (5.14.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Clive Johnston <clivejo@aol.com>  Thu, 17 Sep 2015 13:26:47 +0100
 
+ktexteditor (5.13.0-1) unstable; urgency=medium
+
+  * New upstream release (5.13.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Tue, 01 Sep 2015 13:28:14 +0200
+
 ktexteditor (5.13.0-0ubuntu1) wily; urgency=medium
 
   * new upstream release
 
  -- Jonathan Riddell <jriddell@ubuntu.com>  Mon, 10 Aug 2015 13:32:00 +0200
+
+ktexteditor (5.12.0-1) unstable; urgency=medium
+
+  * New upstream release (5.12.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 09 Jul 2015 12:44:05 +0200
 
 ktexteditor (5.12.0-0ubuntu1) wily; urgency=medium
 
