@@ -1,3 +1,9 @@
+ktexteditor (5.17.0-0ubuntu1) UNRELEASED; urgency=medium
+
+  * New upstream release Xenial
+
+ -- Scarlett Clark <sgclark@kubuntu.org>  Mon, 14 Dec 2015 02:33:13 +0000
+
 ktexteditor (5.16.0-1) unstable; urgency=medium
 
   * New upstream release (5.16.0).
