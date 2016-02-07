@@ -87,19 +87,3 @@ Description: provide advanced plain text editing services
  (Kate Part).
  .
  This contains the Kate Part plugin.
-
-Package: libkf5texteditor5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Depends: libkf5texteditor5 (= ${binary:Version}), ${misc:Depends}
-Description: provide advanced plain text editing services
- The KTextEditor interfaces - also called KTE interfaces - are a set
- of well-defined interfaces which an application or library can
- implement to provide advanced plain text editing
- services. Applications which utilise this interface can thus allow
- the user to choose which implementation of the editor component to
- use. The only implementation right now is the Kate Editor Component
- (Kate Part).
- .
- Contains debug symbols for texteditor.
