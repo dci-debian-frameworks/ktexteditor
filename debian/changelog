@@ -1,6 +1,6 @@
-ktexteditor (5.20.0-1~2.gbpd90069) UNRELEASED; urgency=medium
+ktexteditor (5.20.0-1~3.gbpbbd639) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @d900697447c3892910d46c6c1fb7166af5f70c3c **
+  ** SNAPSHOT build @bbd6397fe98a7325cd9c5cb0cf5b2b28e42ba897 **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -13,8 +13,9 @@ ktexteditor (5.20.0-1~2.gbpd90069) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * Update acc test script
+  * UNRELEASED
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 01 Apr 2016 17:19:19 +0200
+ -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:19:39 +0200
 
 ktexteditor (5.19.0-1) experimental; urgency=medium
 
