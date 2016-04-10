@@ -1,6 +1,6 @@
-ktexteditor (5.20.0-1~3.gbpbbd639) UNRELEASED; urgency=medium
+ktexteditor (5.21.0-1~1.gbpd40c4f) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @bbd6397fe98a7325cd9c5cb0cf5b2b28e42ba897 **
+  ** SNAPSHOT build @d40c4f7db05b112621eb9c1446b417b0f574b09e **
 
   [ Maximiliano Curia ]
   * Replace the "Historical name" ddeb-migration by its "Modern, clearer" replacement dbgsym-migration.
@@ -14,8 +14,14 @@ ktexteditor (5.20.0-1~3.gbpbbd639) UNRELEASED; urgency=medium
   [ Maximiliano Curia ]
   * Update acc test script
   * UNRELEASED
+  * uscan no longer supports more than one main upstream tarball being listed
 
- -- Maximiliano Curia <jenkins@amadeus.gnuservers.com.ar>  Fri, 01 Apr 2016 17:19:39 +0200
+  [ Automatic packaging ]
+  * Update build-deps and deps with the info from cmake
+
+  [ Maximiliano Curia ]
+
+ -- Maximiliano Curia <maxy@gnuservers.com.ar>  Sun, 10 Apr 2016 10:19:42 +0200
 
 ktexteditor (5.19.0-1) experimental; urgency=medium
 
