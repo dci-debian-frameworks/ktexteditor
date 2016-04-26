@@ -10,4 +10,3 @@ Index: ktexteditor/autotests/src/katesyntaxtest.cpp
 +        if (!info.isDir() || info.fileName().contains(QLatin1Char('.'))) {
              continue;
          }
-         
