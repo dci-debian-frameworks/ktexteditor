@@ -1,6 +1,7 @@
 ktexteditor (5.21.0-0ubuntu1) UNRELEASED; urgency=medium
 
   * New upstream release, xenial backport. 
+  * Refresh patch. 
 
  -- Scarlett Clark <sgclark@kubuntu.org>  Tue, 26 Apr 2016 11:13:24 -0700
 
