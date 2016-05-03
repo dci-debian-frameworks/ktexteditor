@@ -5,16 +5,16 @@ Maintainer: Debian/Kubuntu Qt/KDE Maintainers <debian-qt-kde@lists.debian.org>
 Uploaders: Maximiliano Curia <maxy@debian.org>
 Build-Depends: cmake (>= 2.8.12),
                debhelper (>= 9),
-               extra-cmake-modules (>= 5.18.0~),
-               kio-dev (>= 5.18.0~),
+               extra-cmake-modules (>= 5.19.0~),
+               kio-dev (>= 5.19.0~),
                libgit2-dev,
-               libkf5archive-dev (>= 5.18.0~),
-               libkf5config-dev (>= 5.18.0~),
-               libkf5guiaddons-dev (>= 5.18.0~),
-               libkf5i18n-dev (>= 5.18.0~),
-               libkf5iconthemes-dev (>= 5.18.0~),
-               libkf5parts-dev (>= 5.18.0~),
-               libkf5sonnet-dev (>= 5.18.0~),
+               libkf5archive-dev (>= 5.19.0~),
+               libkf5config-dev (>= 5.19.0~),
+               libkf5guiaddons-dev (>= 5.19.0~),
+               libkf5i18n-dev (>= 5.19.0~),
+               libkf5iconthemes-dev (>= 5.19.0~),
+               libkf5parts-dev (>= 5.19.0~),
+               libkf5sonnet-dev (>= 5.19.0~),
                libqt5xmlpatterns5-dev (>= 5.4),
                perl,
                pkg-config,
@@ -23,13 +23,13 @@ Build-Depends: cmake (>= 2.8.12),
                qtscript5-dev (>= 5.4)
 Standards-Version: 3.9.6
 Homepage: https://projects.kde.org/projects/frameworks/ktexteditor
-Vcs-Browser: http://anonscm.debian.org/cgit/pkg-kde/frameworks/ktexteditor.git
-Vcs-Git: git://anonscm.debian.org/pkg-kde/frameworks/ktexteditor.git
+Vcs-Browser: https://anonscm.debian.org/git/pkg-kde/frameworks/ktexteditor.git
+Vcs-Git: https://anonscm.debian.org/git/pkg-kde/frameworks/ktexteditor.git
 
 Package: libkf5texteditor-dev
 Section: libdevel
 Architecture: any
-Depends: libkf5parts-dev (>= 5.16.0~),
+Depends: libkf5parts-dev (>= 5.19.0~),
          libkf5texteditor5 (= ${binary:Version}),
          qtbase5-dev (>= 5.4),
          ${misc:Depends},
@@ -96,19 +96,3 @@ Description: provide advanced plain text editing services
  (Kate Part).
  .
  This contains the Kate Part plugin.
-
-Package: libkf5texteditor5-dbg
-Priority: extra
-Section: debug
-Architecture: any
-Depends: libkf5texteditor5 (= ${binary:Version}), ${misc:Depends}
-Description: provide advanced plain text editing services
- The KTextEditor interfaces - also called KTE interfaces - are a set
- of well-defined interfaces which an application or library can
- implement to provide advanced plain text editing
- services. Applications which utilise this interface can thus allow
- the user to choose which implementation of the editor component to
- use. The only implementation right now is the Kate Editor Component
- (Kate Part).
- .
- Contains debug symbols for texteditor.
