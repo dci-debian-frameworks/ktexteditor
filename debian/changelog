@@ -1,11 +1,10 @@
-ktexteditor (5.23.0-1~1.gbp63f597) UNRELEASED; urgency=medium
+ktexteditor (5.23.0-1) unstable; urgency=medium
 
-  ** SNAPSHOT build @63f59747b3ef447cc4b93a1510558d2af8ad8732 **
-
+  [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
   * Refresh patches
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Mon, 13 Jun 2016 01:19:36 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Wed, 22 Jun 2016 23:54:25 +0200
 
 ktexteditor (5.22.0-1) unstable; urgency=medium
 
