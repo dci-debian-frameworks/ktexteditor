@@ -1,6 +1,6 @@
-ktexteditor (5.27.0-2~1.gbp99a484) UNRELEASED; urgency=medium
+ktexteditor (5.27.0-2~2.gbp758a03) UNRELEASED; urgency=medium
 
-  ** SNAPSHOT build @99a48466e64c6b2465651600da905a24e563f527 **
+  ** SNAPSHOT build @758a03948df06e27e09a9468a824e3e0013ef3c7 **
 
   * Add libgit2-dev build dep back.
     Thanks to Simon Quigley for noting this
