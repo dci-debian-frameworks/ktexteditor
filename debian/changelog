@@ -1,17 +1,14 @@
-ktexteditor (5.28.0-1~1.gbp037c11) UNRELEASED; urgency=medium
-
-  ** SNAPSHOT build @037c1117fb54404b59416eaa3ca16bc7bd58ebf9 **
+ktexteditor (5.28.0-1) unstable; urgency=medium
 
   [ Maximiliano Curia ]
-  ** SNAPSHOT build @758a03948df06e27e09a9468a824e3e0013ef3c7 **
-
+  * New upstream release (5.28)
   * Add libgit2-dev build dep back.
     Thanks to Simon Quigley for noting this
 
   [ Automatic packaging ]
   * Update build-deps and deps with the info from cmake
 
- -- Automatic packaging <maxy+jenkins@gnuservers.com.ar>  Tue, 15 Nov 2016 19:19:56 +0100
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 18 Nov 2016 16:07:00 +0100
 
 ktexteditor (5.27.0-1) unstable; urgency=medium
 
