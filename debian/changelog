@@ -1,4 +1,4 @@
-ktexteditor (5.28.0-2~) UNRELEASED; urgency=medium
+ktexteditor (5.28.0-2) unstable; urgency=medium
 
   * Apply "Fix: Forward dragging text results in wrong selection" (a4ad36c)
     Add the upstream patch as:
@@ -7,7 +7,7 @@ ktexteditor (5.28.0-2~) UNRELEASED; urgency=medium
   * Apply "fix minimap rendering for HiDPI envs" (030c37b)
     Add upstream patch as: fix-minimap-rendering-for-HiDPI-envs.patch
 
- -- Maximiliano Curia <maxy@gnuservers.com.ar>  Fri, 07 Apr 2017 11:29:01 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Apr 2017 11:57:02 +0200
 
 ktexteditor (5.28.0-1) unstable; urgency=medium
 
