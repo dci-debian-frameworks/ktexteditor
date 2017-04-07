@@ -7,7 +7,7 @@ Subject: katesyntaxtest_check_basename
  1 file changed, 1 insertion(+), 1 deletion(-)
 
 diff --git a/autotests/src/katesyntaxtest.cpp b/autotests/src/katesyntaxtest.cpp
-index 04d74bf..4f0b4f8 100644
+index 04d74bf2..4f0b4f86 100644
 --- a/autotests/src/katesyntaxtest.cpp
 +++ b/autotests/src/katesyntaxtest.cpp
 @@ -55,7 +55,7 @@ void KateSyntaxTest::testSyntaxHighlighting_data()
