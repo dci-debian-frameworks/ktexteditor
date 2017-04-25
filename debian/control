@@ -53,8 +53,6 @@ Depends: ktexteditor-data (= ${source:Version}),
          libkf5texteditor5-libjs-underscore,
          ${misc:Depends},
          ${shlibs:Depends}
-Multi-Arch: same
-Recommends: ktexteditor-katepart (= ${binary:Version}), libkf5texteditor-bin
 Description: provide advanced plain text editing services
  The KTextEditor interfaces - also called KTE interfaces - are a set
  of well-defined interfaces which an application or library can
@@ -63,23 +61,8 @@ Description: provide advanced plain text editing services
  the user to choose which implementation of the editor component to
  use. The only implementation right now is the Kate Editor Component
  (Kate Part).
-
-Package: libkf5texteditor-bin
-Architecture: any
 Multi-Arch: same
-Depends: ${misc:Depends}, ${shlibs:Depends}
-Breaks: libkf5texteditor5 (<< ${source:Version}~ciBuild)
-Replaces: libkf5texteditor5 (<< ${source:Version}~ciBuild)
-Description: provide advanced plain text editing services
- The KTextEditor interfaces - also called KTE interfaces - are a set
- of well-defined interfaces which an application or library can
- implement to provide advanced plain text editing
- services. Applications which utilise this interface can thus allow
- the user to choose which implementation of the editor component to
- use. The only implementation right now is the Kate Editor Component
- (Kate Part).
- .
- This package provides the supporting binaries.
+Recommends: ktexteditor-katepart (= ${binary:Version})
 
 Package: libkf5texteditor5-libjs-underscore
 Architecture: any
