@@ -1,3 +1,9 @@
+ktexteditor (5.35.0-1~) UNRELEASED; urgency=medium
+
+  * New upstream release (5.35.0).
+
+ -- Maximiliano Curia <maxy@debian.org>  Mon, 26 Jun 2017 17:57:51 +0200
+
 ktexteditor (5.28.0-2) unstable; urgency=medium
 
   * Apply "Fix: Forward dragging text results in wrong selection" (a4ad36c)
