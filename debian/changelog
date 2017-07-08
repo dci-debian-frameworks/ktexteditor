@@ -1,4 +1,4 @@
-ktexteditor (5.35.0-1~1) UNRELEASED; urgency=medium
+ktexteditor (5.36.0-1~) UNRELEASED; urgency=medium
 
   [ Maximiliano Curia ]
   * New upstream release (5.35.0).
@@ -6,6 +6,8 @@ ktexteditor (5.35.0-1~1) UNRELEASED; urgency=medium
   * Update build-deps and deps with the info from cmake
   * Drop upstream patches
   * Update build-deps and deps with the info from cmake
+  * watch: Use https uris
+  * New upstream release (5.36.0).
 
   [ Jonathan Riddell ]
   * kauth stuff
@@ -18,7 +20,7 @@ ktexteditor (5.35.0-1~1) UNRELEASED; urgency=medium
   [ Harald Sitter ]
   * acc c++11. now used more liberally
 
- -- Maximiliano Curia <maxy@debian.org>  Fri, 07 Jul 2017 16:56:40 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Sat, 08 Jul 2017 14:02:25 +0200
 
 ktexteditor (5.28.0-2) unstable; urgency=medium
 
