@@ -93,6 +93,7 @@ Description: provide advanced plain text editing services (documentation)
  (Kate Part).
  .
  This package contains the qch documentation files.
+Section: doc
 
 Package: libkf5texteditor5
 Architecture: any
