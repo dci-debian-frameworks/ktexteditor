@@ -1,10 +1,12 @@
-ktexteditor (5.38.0-1~) UNRELEASED; urgency=medium
+ktexteditor (5.41.0-1~) UNRELEASED; urgency=medium
 
   * Add libeditorconfig-dev build dep.
     Thanks to Václav Doležal for the report (Closes: 876063)
   * New upstream release (5.38.0).
+  * Update build-deps and deps with the info from cmake
+  * New upstream release (5.41.0).
 
- -- Maximiliano Curia <maxy@debian.org>  Mon, 18 Sep 2017 16:54:25 +0200
+ -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Dec 2017 09:33:53 -0300
 
 ktexteditor (5.37.0-2) sid; urgency=medium
 
