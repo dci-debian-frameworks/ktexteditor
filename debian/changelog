@@ -1,12 +1,17 @@
-ktexteditor (5.41.0-1~) UNRELEASED; urgency=medium
+ktexteditor (5.41.0-1~1) UNRELEASED; urgency=medium
 
   * Add libeditorconfig-dev build dep.
     Thanks to Václav Doležal for the report (Closes: 876063)
   * New upstream release (5.38.0).
   * Update build-deps and deps with the info from cmake
   * New upstream release (5.41.0).
+  * Update build-deps and deps with the info from cmake
+  * Bump Standards-Version to 4.1.2.
+  * Replace underscore using linktrees
+  * Use system copy of underscore.js for the embedded resources
+  * Use the underscore.js available in libraries
 
- -- Maximiliano Curia <maxy@debian.org>  Thu, 14 Dec 2017 09:33:53 -0300
+ -- Maximiliano Curia <maxy@debian.org>  Fri, 15 Dec 2017 08:44:18 -0300
 
 ktexteditor (5.37.0-2) sid; urgency=medium
 
