@@ -8,7 +8,6 @@ override_dh_auto_configure:
 	dh_auto_configure -- -DBUILD_QCH=ON
 	# ktexteditor embeds underscore.js in the generated lib
 	# (through a qt resource)
-	-ln -sf /usr/share/javascript/underscore/underscore.js src/script/data/libraries/emmet/lib.js
 	-ln -sf /usr/share/javascript/underscore/underscore.js src/script/data/libraries/underscore.js
 
 override_dh_strip:
