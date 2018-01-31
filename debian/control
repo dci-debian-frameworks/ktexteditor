@@ -97,9 +97,25 @@ Description: provide advanced plain text editing services (documentation)
  This package contains the qch documentation files.
 Section: doc
 
+Package: libkf5texteditor-bin
+Architecture: any
+Multi-Arch: foreign
+Depends:  ${misc:Depends}, ${shlibs:Depends},
+Description: provide advanced plain text editing services (binaries)
+ The KTextEditor interfaces - also called KTE interfaces - are a set
+ of well-defined interfaces which an application or library can
+ implement to provide advanced plain text editing
+ services. Applications which utilise this interface can thus allow
+ the user to choose which implementation of the editor component to
+ use. The only implementation right now is the Kate Editor Component
+ (Kate Part).
+ .
+ This package contains the helper binaries.
+
 Package: libkf5texteditor5
 Architecture: any
 Depends: ktexteditor-data (= ${source:Version}),
+         libkf5texteditor-bin (= ${binary:Version}),
          libjs-underscore,
          ${misc:Depends},
          ${shlibs:Depends},
